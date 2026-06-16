@@ -1,0 +1,60 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at 20% 20%, #0d1117, #050708);
+    color: #e6edf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 150, 255, 0.2);
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background: #161b22;
+    color: #c9d1d9;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #007aff, #00d4ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    transform: scale(1.03);
+}
+
+.status-message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.status-success {
+    color: #00ff9c;
+}
+
+.status-error {
+    color: #ff4d4f;
+}
